@@ -14,4 +14,8 @@ function drawBoard(params) {
     ctx.fillRect(5, (elementCanvas.height / 3) * 2 - 5, elementCanvas.width - 10, 10);    
 }
 
-drawBoard();
+function game() {
+    drawBoard();
+}
+
+game();
