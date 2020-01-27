@@ -1,6 +1,8 @@
 var elementCanvas = document.getElementById('game-canvas');
 var ctx = elementCanvas.getContext('2d');
 
+var board = [0,1,2,3,4,5,6,7,8];
+
 function drawBoard(params) {
 
     ctx.fillStyle = '#357050';
@@ -13,6 +15,8 @@ function drawBoard(params) {
     ctx.fillRect(5, (elementCanvas.height / 3) - 5, elementCanvas.width - 10, 10);
     ctx.fillRect(5, (elementCanvas.height / 3) * 2 - 5, elementCanvas.width - 10, 10);    
 }
+
+
 
 function game() {
     drawBoard();
