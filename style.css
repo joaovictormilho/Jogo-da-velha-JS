@@ -6,6 +6,7 @@ body {
 }
 
 #div-canvas {
+    margin-top: 20px;
     background-color: rgb(35,70,50);
     image-rendering: pixelated;
     image-rendering: crisp-edges;
